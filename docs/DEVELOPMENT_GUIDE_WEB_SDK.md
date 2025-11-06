@@ -308,14 +308,3 @@ uwc-chat-sdk/
 - Migrate easily to **monorepo** when ready
 
 ---
-
-> 🧑‍💻 **Cursor Tip:**  
-> You can use this markdown as a **Cursor Project Context** file.
->
-> - Open this file in Cursor → "Add as Context"
-> - Then ask:
->   > “Refactor AuthManager for token refresh flow”  
->   > or  
->   > “Add reconnect logic with exponential backoff in WebSocketManager”
-
----

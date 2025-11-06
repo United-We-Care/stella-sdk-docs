@@ -2,6 +2,11 @@
 
 A comprehensive web-compatible SDK for integrating AI-powered chat functionality into React and vanilla JavaScript applications with enterprise-grade security and privacy protection.
 
+## 📚 Documentation
+
+- Developer Integration Guide: [docs/DEVELOPER_INTEGRATION.md](docs/DEVELOPER_INTEGRATION.md)
+- Diagrams: [docs/DIAGRAMS.md](docs/DIAGRAMS.md)
+
 ## 🚀 Quick Start
 
 ### Installation
@@ -240,7 +245,6 @@ npm run test:ui
 npm run type-check
 ```
 
-
 ## 🔄 Migration from React Native SDK
 
 If you're migrating from the React Native SDK, the API is nearly identical:
@@ -281,5 +285,10 @@ ENVIRONMENT=dev
 ```
 
 ---
+
+## 📚 Documentation
+
+- Developer Integration Guide: [docs/DEVELOPER_INTEGRATION.md](docs/DEVELOPER_INTEGRATION.md)
+- Diagrams: [docs/DIAGRAMS.md](docs/DIAGRAMS.md)
 
 **Built with ❤️ by the United We Care team**
