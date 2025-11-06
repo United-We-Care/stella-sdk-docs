@@ -8,8 +8,8 @@ This document collects architecture and flow diagrams (Mermaid) for the SDK.
 
 ```mermaid
 flowchart LR
-  App[Hosting App]\nUI + Business Logic
-  SDK[UWCChatSDK]\nFacade
+  App[Hosting App] 
+  SDK[UWCChatSDK]
   AM[AuthManager]
   CM[ChatManager]
   AV[AvatarManager]
@@ -66,8 +66,8 @@ flowchart TD
   S[Socket Close] --> T{autoReconnect enabled?}
   T -- no --> U[Stop]
   T -- yes --> V[attempt++]
-  V --> W[delay = base * 2^(attempt-1)]
-  W --> X[setTimeout(connect, delay)]
+  V --> W["delay = base * 2^ (attempt-1)" ]
+  W --> X["setTimeout(connect, delay)"]
   X -->|success| Y[reset attempts]
   X -->|failure| V
 ```
