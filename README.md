@@ -240,19 +240,6 @@ npm run test:ui
 npm run type-check
 ```
 
-## 📄 License
-
-MIT License - see [LICENSE](./LICENSE) file for details.
-
-## 🤝 Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
-
-## 📞 Support
-
-- **Documentation**: [docs.uwc.world](https://docs.uwc.world)
-- **Issues**: [GitHub Issues](https://github.com/united-we-care/stella-web-client-sdk/issues)
-- **Email**: [support@uwc.world](mailto:support@uwc.world)
 
 ## 🔄 Migration from React Native SDK
 
