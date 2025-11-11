@@ -63,7 +63,6 @@ const user = await sdk.createUserSession({
   email: "user@example.com",
   firstName: "Jane",
   lastName: "Doe",
-  country: "United States",
 });
 
 // 3) (Optional) Fetch avatars/personas and select one

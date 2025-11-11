@@ -67,7 +67,6 @@ const user = await sdk.createUserSession({
   email: "user@example.com",
   firstName: "Jane",
   lastName: "Doe",
-  country: "United States",
 });
 ```
 
